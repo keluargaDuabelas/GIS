@@ -18,7 +18,7 @@ export default function Dashboard({ auth }) {
                     </div>
                     <div className="h-max">
             <Map
-              mapboxAccessToken="pk.eyJ1Ijoia2VsdWFyZ2FzZWJlbGFzIiwiYSI6ImNsc3d5Z2IwejFyZ2wybXFzZGt2aW9qbjMifQ.yKTSBNvJZZWdnhMv59I5HQ"
+              mapboxAccessToken="MAPS TOKEN"
               initialViewState={{
                 longitude: 106.8291201,
                 latitude: -6.1836782,
@@ -30,7 +30,7 @@ export default function Dashboard({ auth }) {
           </div>
                 </div>
             </div>
-            
+
         </AuthenticatedLayout>
     );
 }
