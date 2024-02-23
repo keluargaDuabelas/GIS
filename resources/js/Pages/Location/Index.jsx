@@ -18,14 +18,7 @@ import Map, {
 import ItemSlider from "@/Components/ItemSlider";
 import LocationForm from "@/Components/LocationForm";
 import PrimaryButton from "@/Components/PrimaryButton";
-// import * as MapboxDirections from "@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions";
 
-// const directions = new MapboxDirections({
-//     accessToken:
-//         "pk.eyJ1IjoiY3J1c2hlcmJsYWNrIiwiYSI6ImNsOXk3cTZzajAyazYzbnBkbWs0Y3AyNjcifQ.hXpOiJw9u5SzTTbFi-a_zQ",
-//     unit: "metric",
-//     profile: "mapbox/cycling",
-// });
 
 const Location = ({ auth }) => {
   const { locations } = usePage().props;
